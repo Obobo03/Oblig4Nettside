@@ -1,0 +1,30 @@
+.noMargin
+{
+    margin: 0%;
+	outline: 0%;
+}
+
+
+.nav
+{
+    display: flex;
+	justify-content:space-between;
+	gap: 50px;
+	text-align: center;
+	background-color:  whitesmoke;
+	border: 0px solid;
+	height: 10%;
+	padding: 1%;
+}
+
+
+.Overskrift
+{
+    position: absolute; left:47.4%;
+	
+	display: flex;
+}
+.Placeholder
+{
+    color: whitesmoke;
+}
