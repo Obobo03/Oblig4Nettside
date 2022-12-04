@@ -177,10 +177,6 @@ button:hover {
 	text-align: center;
 }
 
-.center-content {
-	justify-content: center;
-}
-
 @media (max-width: 640px) {
 	.footer {
 	  text-align: center;
