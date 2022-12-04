@@ -80,7 +80,7 @@ nav a {
 
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1440px;
 	margin: 0 auto;
 }
 
@@ -94,55 +94,26 @@ nav a {
 	text-align: center;	
     margin-right: auto;
     margin-left: auto;
-	padding: 1% 2% 1% 2%;
+	padding: 1% 2% 5% 2%;
 	background-color: #FCF7F8;
+    
 }
 
-.booking {
+img {
+width: 100%;
+}
+
+.img-text {
+    margin-top: 1%;
+    font-size: 0.8em;
+}
+
+.center {
 	display: block;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.box-storsalen {
-    display: block;
-    position: relative;
-	margin-top: 2%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.box-lillesalen{
-	display: block;
-    position: relative;
-	margin-top: 1%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-
-.button {
-	margin-left: auto;
-	margin-right: auto;
-	border: 3px;
-	border-radius: 20px;
-	background-color: rgba(77, 66, 66, 0.199);
-	width: 30%;
-    min-height:30px; 
-    min-width: 120px
-}
-
-button:hover {
-	background-color: rgba(245, 139, 68, 0.719);
-}
-
-.text-center {
-	display: block;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
+    padding: 1%;
 }
 
 .footer {
@@ -178,9 +149,6 @@ button:hover {
 .center-content {
 	justify-content: center;
 }
-
-
-
 
 @media (max-width: 640px) {
 	.footer {
