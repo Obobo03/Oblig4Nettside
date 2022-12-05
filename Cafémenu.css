@@ -1,3 +1,4 @@
+/*Css for header below */
 a:link {text-decoration: none}
 a:visited {text-decoration: none}
 a:hover {text-decoration: none}
@@ -91,6 +92,7 @@ nav a {
 	align-items: center;
 }
 
+/* Css for Cafemeny contet below */
 .grid-container {
 	text-align: center;	
     margin-right: auto;
@@ -100,7 +102,7 @@ nav a {
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 p {
@@ -115,6 +117,7 @@ p {
     padding: 1%;
 }
 
+/* Css for footer below */
 .footer {
   display: block;
   color: white;
