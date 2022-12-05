@@ -24,7 +24,7 @@ a:active {text-decoration: none}
 	background-color: #FCF7F8;
 	background-image: linear-gradient(180deg, #17c3b24b 30%, #FCF7F8 85%);
 }
-
+/* Css for header below */
 .logo {
 	list-style: none;
 }
@@ -78,6 +78,7 @@ nav a {
 	}
 }
 
+/* Css for webpage content below */
 .container {
 	width: 100%;
 	max-width: 1200px;
@@ -147,6 +148,7 @@ button:hover {
 	margin-right: auto;
 }
 
+/* Css for footer below */
 .footer {
   display: block;
   color: white;
