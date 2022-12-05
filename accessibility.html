@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Language declaration -->
     <head>
         <title>Osloveien Eventhus | Accessibility</title> <!-- Defines the title of the page -->
         <link href="accessibility-styles.css" type="text/css" rel="stylesheet" /> <!-- Link to the CSS file for the page-->
@@ -11,7 +11,7 @@
     <!-- Code from: https://adiati.com/how-to-create-a-responsive-navigation-bar-with-flexbox-and-media-queries -->
     <!-- Code for header/navbar-->
         <header>
-            <div class="container-nav col-9">
+            <div class="container container-nav col-9">
                 <div class="logo">
                     <li><a href="index.html"><h1>Osloveien Eventhus</h1></a></li>
                 </div>
@@ -19,15 +19,41 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="Booking.html">Booking</a></li>
-                        <li><a href="Cafémenu.html">Cafè Meny</a></li>
+                        <li><a href="Cafémenu.html">Café Menu</a></li>
                         <li><a href="accessibility.html">Accessibility</a></li>
                         <li><a href="topical.html">Topical Page</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <section>
-<!-- TEKST KOMMER -->
+        <section> <!-- Text and image content of page-->
+            <div class="grid-container col-9">
+                <h2>Short presentation of accessibility</h2>
+                <p>We ran our website through the WAVE Web Accessibility Evaluation Tool and others to identify problem areas in regards to accessibility. 
+                    In relation to screen readers we identified problems relating to language and structure. We tried to solve this by ensuring that the 
+                    language was declared on every page and by better utilizing semantic markups across our code. We also used the screen reader browser plugin, 
+                    provided by Google, to do further testing, to ensure that our content was accessible. Although, we could’ve gone further by implementing ARIA 
+                    (Accessible Rich Internet Applications) to provide more meaning to our content.</p>
+                <p>We strive to stay true to our goal of universal design. Our steps towards this was making sure that the website is styled sparingly 
+                    with blue colors, ensuring that contrast is sufficient, but also using alternative text on pictures and/or illustrations, and using 
+                    headlines consecutively. Our website is universally designed to appear coherent with a common theme, excluding the topical page, which 
+                    was supposed to be visually different.</p>
+                <p>To ensure accessibility beyond automatic tests we could perhaps do further testing with real life people and gather their feedback.</p>
+                <br>
+                <h2>Screenshots showcasing automatic tests</h2>
+                <hr>
+                <img src="accessibility-image1.JPG"alt="Image showcasing the WAVE Web Accessibility Evaluation Tool in use." /> <!-- Plugin Source: https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh-->
+                <p class="img-text">WAVE Web Accessibility Evaluation Tool.</p>
+                <hr>
+                <img src="accessibility-image2.JPG"alt="Image showcasing the Web Developer browser extension in use." /> <!-- Plugin Source: https://chrispederick.com/work/web-developer/-->
+                <p class="img-text">Web Developer.</p>
+                <hr>
+                <img src="accessibility-image3.JPG"alt="Image showcasing the WAVE Web Accessibility Evaluation Tool in use. Showing the Topical Page along with its errors." />
+                <p class="img-text">Errors identified by using automatic tests.</p>
+                <hr>
+                <img src="accessibility-image4.JPG"alt="Image showcasing the WAVE Web Accessibility Evaluation Tool in use." />
+                <p class="img-text">Webpage Structure.</p>
+            </div>
         </section>
         <footer class="footer">
             <div class="footer-left"> <!-- Contact information -->
